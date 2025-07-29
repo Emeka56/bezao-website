@@ -10,7 +10,7 @@ body {
 
 /* Mobile section styling */
 
-@media (min-width: 375px) and (max-width: 720px) {
+@media (min-width: 375px) and (max-width: 430px) {
   .header__desktop,
   .container__desktop,
   .footer__desktop {
@@ -23,7 +23,7 @@ body {
 
   main,
   footer {
-    max-width: 720px;
+    max-width: 430px;
   }
 
   .left__logo {
@@ -46,7 +46,7 @@ body {
     position: relative;
     top: 0.3rem;
 
-    max-width: 720px;
+    max-width: 430px;
   }
 
   .hero__contents-mobile {
@@ -191,7 +191,6 @@ body {
     transition: all 0.5s ease-in;
     transform: translateX(8px);
     font-weight: bold;
-    font-size: 1.2rem;
   }
 
   .menu-item-img-mobile {
@@ -206,7 +205,7 @@ body {
     position: relative;
     top: 9rem;
     background-color: #f9e1e3;
-    max-width: 720px;
+    max-width: 430px;
   }
 
   .testimonials__card-mobile {
@@ -223,7 +222,7 @@ body {
   .testimonials__card-mobile p {
     color: #67758d;
     font-size: 1rem;
-    max-width: 720px;
+    max-width: 430px;
   }
 
   .testimonials__mobile-card {
@@ -361,7 +360,7 @@ body {
     background-color: #fafafa;
     padding: 1.5rem 1rem;
     margin-top: 2rem;
-    max-width: 720px;
+    max-width: 430px;
   }
 
   .footer__mobile h2 {
@@ -462,8 +461,6 @@ body {
     transition: all 0.5s ease-in;
     transform: translateX(8px);
     font-weight: bold;
-    margin: 0.3em;
-    font-size: 1.3rem;
     cursor: pointer;
   }
 
@@ -474,8 +471,6 @@ body {
     transition: all 0.5s ease-in;
     transform: translateX(8px);
     font-weight: bold;
-    margin: 0.3em;
-    font-size: 1.2rem;
     cursor: pointer;
   }
 
@@ -484,8 +479,6 @@ body {
     color: #da3743;
     border-bottom: 2px solid #da3743;
     transition: all 0.5s ease-out;
-    margin: 0.3em;
-    font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
   }
@@ -506,7 +499,7 @@ body {
     border-bottom: 2px solid #da3743;
     transition: all 1s ease-in-out;
     transform: translateX(-10px);
-    width: 30px;
+    width: 20px;
     cursor: pointer;
   }
 
@@ -517,7 +510,6 @@ body {
     transition: all 0.5s ease-in;
     transform: translateX(8px);
     font-weight: bold;
-    font-size: 1.2rem;
     cursor: pointer;
   }
 
@@ -537,7 +529,6 @@ body {
     transition: all 0.5s ease-in;
     transform: translateX(8px);
     font-weight: bold;
-    font-size: 1.3rem;
   }
 
   /* Hero secttion styling */
@@ -676,14 +667,14 @@ body {
   .full-menu-desktop {
     margin-top: 2rem;
     width: 8rem;
-    height: 3.5rem;
+    height: 3rem;
     border-radius: 1.2rem;
     border: none;
     background-color: #da3743;
     color: #ffffff;
     position: relative;
     left: 35%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
   }
@@ -695,7 +686,7 @@ body {
     transition: all 0.5s ease-in;
     transform: translateY(-8px);
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     cursor: pointer;
   }
 
@@ -818,7 +809,7 @@ body {
   }
 
   .blog-cards {
-    max-width: 720px;
+    max-width: 430px;
     padding: 2rem;
   }
 
@@ -872,7 +863,6 @@ body {
     border-bottom: 2px solid #da3743;
     transition: all 0.5s ease-in;
     transform: translateX(-8px);
-    font-size: 1.2rem;
     cursor: pointer;
   }
 
