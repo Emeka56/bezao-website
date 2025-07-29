@@ -7,348 +7,585 @@
     <link rel="stylesheet" href="/css/bezao.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <ul class="nav__links">
-          <li class="logo">
-            <img src="/images/Group.png" alt="" class="group-icon" />
+    <header class="header__top mobile">
+      <nav class="nav__top mobile">
+        <div class="top__left">
+          <p>
+            <img src="images/Group.png" alt="" class="left__logo" />
+
             <b>Meals</b>
-          </li>
-          <a href="#"><li class="home">Home</li></a>
+          </p>
+        </div>
 
-          <a href="#"><li class="menu-menu">Menu</li></a>
-          <a href="#"><li class="meal">Meal Plans</li></a>
-
-          <a href="#"
-            ><li>
-              <img src="/images/Magnifier.png" alt="" class="icon" /></li
-          ></a>
-
-          <a href="#"
-            ><li>
-              <img src="/images/Frame 7646.png" alt="" class="mag" /></li
-          ></a>
-
-          <a href="#"
-            ><li>
-              <img
-                src="/images/Frame 7647.png"
-                alt=""
-                class="icon-hidden"
-              /></li
-          ></a>
-
-          <a href="#"><li class="sign-in">Sign in</li></a>
-          <a href="#"><li class="create-acct">Create Account</li></a>
-        </ul>
+        <div class="top__right">
+          <img src="images/Frame 7646.png" alt="" class="right__icon" />
+          <img src="images/Frame 7647.png" alt="" class="right__icon" />
+        </div>
       </nav>
     </header>
 
-    <main>
-      <section class="hero">
-        <div class="hero__text">
-          <h1>Delicious meals at your convenience</h1>
+    <main class="container__mobile">
+      <section class="hero__mobile">
+        <div class="hero__contents-mobile">
+          <h1>
+            Delicious meals at your <br />
+            convenience
+          </h1>
+
           <p>
-            Order your meals from us and we will have it delivered at your
-            doorstep.
+            Order your meals from us and we will have it delivered at <br />
+            your doorstep.
           </p>
 
-          <a href="#" class="hero__btn">Get Started</a>
-        </div>
+          <div class="instant-search">
+            <p>Instant Order</p>
+            <input type="text" value="Search for meal" />
 
-        <div class="hero__img">
-          <img src="/images/Group 109.png" alt="" class="hero__img" />
-        </div>
-
-        <div class="vector-icons">
-          <img src="images/Ellipse 23.png" alt="" class="eclipse" />
-          <img src="images/chat-right-dots-fill.png" alt="" class="msg-icon" />
-        </div>
-
-        <!-- hidden section -->
-        <div class="input hidden">
-          <p>Instant Order</p>
-
-          <div class="input-gif-text">
-            <img src="images/Magnifier.png" alt="" class="magnifier" />
-
-            <p class="gif-text">Search for meal</p>
+            <img src="images/Magnifier.png" alt="" class="mag-icon" />
           </div>
-          <input type="text" class="hidden-hidden" />
+
+          <img src="images/Group 109.png" alt="" class="hero-mobile__img" />
         </div>
-        <!-- hidden section -->
       </section>
 
-      <section class="menu">
-        <p><b class="menu-p">MENU</b></p>
-        <br />
+      <section class="menu__mobile">
+        <h3 class="menu">MENU</h3>
 
         <h2>Current menu</h2>
 
-        <span class="menu__gifs">
+        <div class="menu__overview">
           <p class="all">All</p>
           <p>Rice</p>
           <p>Beans</p>
           <p>Fries</p>
           <p>Swallow</p>
           <p>Others</p>
-        </span>
+        </div>
 
-        <div class="menu__container">
-          <div class="menu__list">
-            <div class="menu__list-img">
-              <img src="/images/Rectangle 82.png" alt="" class="menu-img" />
-            </div>
+        <div class="menu__items-listed">
+          <div class="menu__items">
+            <img src="images/Rectangle 82.png" alt="" class="menu-item-img" />
+
             <h3>Jollof Rice</h3>
-            <p>
-              Fried potato/yam chips with egg sauce or any topping of your
-              choice
-            </p>
-            <br />
 
-            <span class="current-price"
-              >N 1,500
-              <span class="shop-icon hid">
-                <img src="/images/Group 3.png" alt="" class="hid" />
-              </span>
+            <p>Fried potato/yam chips with egg sauce or any...</p>
+
+            <span class="current-price">
+              N1,500
+              <img src="images/Group 3.png" alt="" class="cart-icon" />
             </span>
           </div>
 
-          <div class="menu__list">
-            <div class="menu__list-img">
-              <img src="/images/Group 333.png" alt="" class="menu-img" />
-            </div>
+          <div class="menu__items">
+            <img src="images/Rectangle 82.png" alt="" class="menu-item-img" />
 
-            <h3>Swallow with Draw Soup</h3>
+            <h3>Jollof Rice</h3>
 
-            <p>
-              Fried potato/yam chips with egg sauce or any topping of your
-              choice
-            </p>
-            <br />
+            <p>Fried potato/yam chips with egg sauce or any...</p>
 
-            <span class="current-price"
-              >N 1000
-              <span class="shop-icon hid">
-                <img src="/images/Group 3.png" alt="" class="hid" />
-              </span>
+            <span class="current-price">
+              N1,500
+              <img src="images/Group 3.png" alt="" class="cart-icon" />
             </span>
           </div>
 
-          <div class="menu__list">
-            <div class="menu__list-img">
-              <img src="/images/Rectangle 82 (1).png" alt="" class="menu-img" />
-            </div>
+          <div class="menu__items">
+            <img src="images/Rectangle 82.png" alt="" class="menu-item-img" />
 
-            <h3>Fries with Egg sauce</h3>
+            <h3>Jollof Rice</h3>
 
-            <p>
-              Fried potato/yam chips with egg sauce or any topping of your
-              choice
-            </p>
-            <br />
+            <p>Fried potato/yam chips with egg sauce or any...</p>
 
-            <span class="current-price"
-              >N 1,500
-              <span class="shop-icon hid">
-                <img src="/images/Group 3.png" alt="" class="hid" />
-              </span>
+            <span class="current-price">
+              N1,500
+              <img src="images/Group 3.png" alt="" class="cart-icon" />
             </span>
           </div>
 
-          <div class="menu__list">
-            <div class="menu__list-img">
-              <img src="/images/Group 333 (1).png" alt="" class="menu-img" />
-            </div>
+          <div class="menu__items">
+            <img src="images/Rectangle 82.png" alt="" class="menu-item-img" />
 
-            <h3>Swallow with Egusi Soup</h3>
+            <h3>Jollof Rice</h3>
 
-            <p>Nicely cooked egusi soup and eba</p>
-            <br />
+            <p>Fried potato/yam chips with egg sauce or any...</p>
 
-            <span class="current-price"
-              >N 1000
-              <span class="shop-icon hid">
-                <img src="/images/Group 3.png" alt="" class="hid" />
-              </span>
+            <span class="current-price">
+              N1,500
+              <img src="images/Group 3.png" alt="" class="cart-icon" />
             </span>
           </div>
 
-          <div class="menu__list">
-            <div class="menu__list-img">
-              <img src="/images/Group 333 (2).png" alt="" class="menu-img" />
-            </div>
+          <div class="menu__items">
+            <img src="images/Rectangle 82.png" alt="" class="menu-item-img" />
 
-            <h3>Beans</h3>
+            <h3>Jollof Rice</h3>
 
-            <p>
-              Fried potato/yam chips with egg sauce or any topping of your
-              choice
-            </p>
-            <br />
+            <p>Fried potato/yam chips with egg sauce or any...</p>
 
-            <span class="current-price"
-              >N 700
-              <span class="shop-icon hid">
-                <img src="/images/Group 3.png" alt="" class="hid" />
-              </span>
+            <span class="current-price">
+              N1,500
+              <img src="images/Group 3.png" alt="" class="cart-icon" />
             </span>
           </div>
 
-          <div class="menu__list">
-            <div class="menu__list-img">
-              <img src="/images/Rectangle 82 (2).png" alt="" class="menu-img" />
-            </div>
+          <div class="menu__items">
+            <img src="images/Rectangle 82.png" alt="" class="menu-item-img" />
 
-            <h3>Fried Rice</h3>
+            <h3>Jollof Rice</h3>
 
-            <p>
-              Fried potato/yam chips with egg sauce or any topping of your
-              choice
-            </p>
-            <br />
+            <p>Fried potato/yam chips with egg sauce or any...</p>
 
-            <span class="current-price"
-              >N 600
-              <span class="shop-icon hid">
-                <img src="/images/Group 3.png" alt="" class="hid" />
-              </span>
+            <span class="current-price">
+              N1,500
+              <img src="images/Group 3.png" alt="" class="cart-icon" />
             </span>
           </div>
         </div>
 
-        <a href="#" class="full-menu">Full Menu</a>
+        <button class="full-menu">Full Menu</button>
       </section>
-    </main>
 
-    <section class="testimonials">
-      <div class="testimonials__text">
-        <h2>What our customers say about us</h2>
-        <p>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum.
-        </p>
-      </div>
+      <!-- Testimonials section -->
 
-      <div class="testimonials__card">
-        <span class="avatar-icon">
-          <img src="images/Icon Color.png" alt="" class="icon" />
-        </span>
+      <section class="testimonials__mobile">
+        <article class="testimonials__card">
+          <h2>
+            What our customers say <br />
+            about us
+          </h2>
 
-        <div class="card-avatar">
-          <img src="/images/Avatar.png" alt="" class="avatar" />
-
-          <div class="avatar-name">
-            <h4 class="primary-name">John</h4>
-            <h4 class="sub-name">Samson</h4>
-
-            <p class="address-footer">Enugu, Nigeria</p>
-          </div>
-        </div>
-
-        <div class="avatar-text-hidden">
-          White dwarf a still more glorious dawn awaits tingling of the spine
-          emerged into consciousness Vangelis shores of the cosmic ocean.
-        </div>
-
-        <div class="avatar-text">
           <p>
-            White dwarf a still more glorious dawn awaits tingling of the spine
-            emerged into consciousness Vangelis shores of the cosmic ocean.
-            Tendrils of gossamer clouds kindling the energy hidden in matter
-            concept of the number one permanence.
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            blanditiis praesentium voluptatum.
           </p>
-        </div>
-      </div>
 
-      <div class="progress-bar bar-hidden">
-        <div class="dot active"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-      </div>
-    </section>
+          <img src="images/Icon Color.png" alt="" class="quote-icon" />
+          <div class="testimonials__mobile-card">
+            <span class="card-avatar">
+              <h3>John Samson</h3>
+              <h4>ENUGU, NIGERIA</h4>
+              <img src="images/Avatar.png" alt="" />
+            </span>
+            <p>
+              White dwarf a still more glorious dawn awaits tingling of the
+              spine emerged into consciousness Vangelis shores of the cosmic
+              ocean.
+            </p>
+          </div>
 
-    <section class="blog__container">
-      <div class="blog__texts">
+          <div class="progress-bar">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </article>
+      </section>
+
+      <!-- Blog section -->
+
+      <section class="blog__mobile">
         <h2>Blog Our Latest News</h2>
+
         <p>
           Have you ever browsed food blogs like mine and wondered how to start a
           food blog of your very own?
         </p>
-      </div>
 
-      <div class="blog__container-cards">
-        <div class="blog-cards">
-          <img src="/images/Rectangle 69.png" alt="" class="card-img" />
+        <div class="blog__posts-column">
+          <div class="blog-posts">
+            <img src="images/Rectangle 69.png" alt="" class="blog-posts-img" />
 
-          <div class="blog-text-content">
-            <span>
+            <span class="date">
               <p class="design">Design</p>
-              <p class="date-1">01 October 2019</p>
+
+              <p>01 October 2019</p>
             </span>
 
-            <h4>Better Than Takeout Kung Pao Chicken</h4>
+            <h3>Better Than Takeout Kung Pao Chicken</h3>
+
             <p>
               This spicy, tangy, and sweet better than takeout no peanut kung
               pao chicken stir fry recipe
             </p>
 
-            <a href="#" class="read-more">READ MORE</a>
+            <h4 class="read-more">READ MORE</h4>
           </div>
-        </div>
 
-        <div class="blog-cards">
-          <img src="/images/Rectangle 70.png" alt="" class="card-img" />
+          <div class="blog-posts">
+            <img src="images/Rectangle 69.png" alt="" class="blog-posts-img" />
 
-          <div class="blog-text-content">
-            <span>
+            <span class="date">
               <p class="design">Design</p>
-              <p class="date-2">01 October 2019</p>
+
+              <p>01 October 2019</p>
             </span>
 
-            <h4>The Best Sesame Soy Broccoli Salad</h4>
+            <h3>Better Than Takeout Kung Pao Chicken</h3>
+
             <p>
-              Hello broccoli salad! Broccoli salad with a sweet and tangy
-              dressing is my new go to for summer parties.
+              This spicy, tangy, and sweet better than takeout no peanut kung
+              pao chicken stir fry recipe
             </p>
 
-            <a href="#" class="read-more">READ MORE</a>
+            <h4 class="read-more">READ MORE</h4>
           </div>
-        </div>
 
-        <div class="blog-cards">
-          <img src="/images/Rectangle 71.png" alt="" class="card-img" />
+          <div class="blog-posts">
+            <img src="images/Rectangle 69.png" alt="" class="blog-posts-img" />
 
-          <div class="blog-text-content">
-            <span>
+            <span class="date">
               <p class="design">Design</p>
-              <p class="date-3">01 October 2019</p>
+
+              <p>01 October 2019</p>
             </span>
 
-            <h4>Better Than Takeout Kung Pao Chicken</h4>
+            <h3>Better Than Takeout Kung Pao Chicken</h3>
+
             <p>
-              This super easy version of dan dan noodles is fast, flavorful, and
-              vegetarian to boot. It’s definitely
+              This spicy, tangy, and sweet better than takeout no peanut kung
+              pao chicken stir fry recipe
             </p>
 
-            <a href="#" class="read-more">READ MORE</a>
+            <h4 class="read-more">READ MORE</h4>
           </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section -->
+
+    <footer class="footer__mobile">
+      <h2>
+        <img src="images/Group.png" alt="" class="footer-icon" />
+        <b>Meals</b>
+      </h2>
+
+      <div class="footer__flex">
+        <div class="footer-company">
+          <h3>Company</h3>
+          <p>Blog</p>
+          <p>About us</p>
+          <p>contact us</p>
+        </div>
+
+        <div class="footer-services">
+          <h3>Services</h3>
+          <p>FAQS</p>
+          <p>Our Menu</p>
         </div>
       </div>
-    </section>
 
-    <footer class="footer">
+      <div class="footer-socials">
+        <img src="images/Shape.png" alt="" class="socials" />
+        <img src="images/bx_bxl-instagram-alt.png" alt="" class="socials" />
+        <img src="images/logo-twitter.png" alt="" class="socials" />
+      </div>
+    </footer>
+
+    <!-- Desktop view -->
+
+    <header class="header__desktop">
+      <nav class="nav__desktop">
+        <ul class="ul-left">
+          <h2>
+            <img src="/images/Group.png" alt="" class="top-logo" />
+            <b>Meals</b>
+          </h2>
+        </ul>
+
+        <ul class="center">
+          <li><a href="#" class="home active">Home</a></li>
+          <li><a href="#" class="menu-desktop">Menu</a></li>
+          <li><a href="#" class="mealplans">MealPlans</a></li>
+        </ul>
+
+        <ul class="right">
+          <li><img src="images/Magnifier.png" alt="" class="mag" /></li>
+          <li><img src="images/Frame 7646.png" alt="" class="cart-gif" /></li>
+          <li class="sign-in">Sign In</li>
+          <li class="create-acct btn">Create Account</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container__desktop">
+      <section class="hero">
+        <div class="hero__text">
+          <h1>
+            Delicious meals at <br />
+            your convenience
+          </h1>
+          <p>
+            Order your meals from us and we will have it <br />
+            delivered at your doorstep.
+          </p>
+
+          <button class="hero__btn">Get Started</button>
+        </div>
+
+        <div class="hero__img">
+          <img src="/images/Group 109.png" alt="" class="hero__img" />
+        </div>
+
+        <!-- <div class="vector-icons">
+          <img src="images/Ellipse 23.png" alt="" class="eclipse" />
+          <img src="images/chat-right-dots-fill.png" alt="" class="msg-icon" />
+        </div> -->
+      </section>
+
+      <section class="menu">
+        <div class="menu__contents">
+          <p><b class="menu-p">MENU</b></p>
+          <br />
+
+          <div class="menu__overview-flex">
+            <h2>Current menu</h2>
+
+            <span class="menu__gifs">
+              <p class="all">All</p>
+              <p>Rice</p>
+              <p>Beans</p>
+              <p>Fries</p>
+              <p>Swallow</p>
+              <p>Others</p>
+            </span>
+          </div>
+
+          <div class="menu__container">
+            <div class="menu__items">
+              <div class="menu__items-img">
+                <img src="/images/Rectangle 82.png" alt="" class="menu-img" />
+              </div>
+              <h3>Jollof Rice</h3>
+              <p>
+                Fried potato/yam chips with egg sauce or any topping of your
+                choice
+              </p>
+              <br />
+
+              <span class="current-price">N 1,500 </span>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__items-img">
+                <img src="/images/Group 333.png" alt="" class="menu-img" />
+              </div>
+
+              <h3>Swallow with Draw Soup</h3>
+
+              <p>
+                Fried potato/yam chips with egg sauce or any topping of your
+                choice
+              </p>
+              <br />
+
+              <span class="current-price">N 1000 </span>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__items-img">
+                <img
+                  src="/images/Rectangle 82 (1).png"
+                  alt=""
+                  class="menu-img"
+                />
+              </div>
+
+              <h3>Fries with Egg sauce</h3>
+
+              <p>
+                Fried potato/yam chips with egg sauce or any topping of your
+                choice
+              </p>
+              <br />
+
+              <span class="current-price">N 1,500</span>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__items-img">
+                <img src="/images/Group 333 (1).png" alt="" class="menu-img" />
+              </div>
+
+              <h3>Swallow with Egusi Soup</h3>
+
+              <p>Nicely cooked egusi soup and eba</p>
+              <br />
+
+              <span class="current-price">N 1000 </span>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__items-img">
+                <img src="/images/Group 333 (2).png" alt="" class="menu-img" />
+              </div>
+
+              <h3>Beans</h3>
+
+              <p>
+                Fried potato/yam chips with egg sauce or any topping of your
+                choice
+              </p>
+              <br />
+
+              <span class="current-price">N 700 </span>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__items-img">
+                <img
+                  src="/images/Rectangle 82 (2).png"
+                  alt=""
+                  class="menu-img"
+                />
+              </div>
+
+              <h3>Fried Rice</h3>
+
+              <p>
+                Fried potato/yam chips with egg sauce or any topping of your
+                choice
+              </p>
+              <br />
+
+              <span class="current-price">N 600 </span>
+            </div>
+          </div>
+
+          <button class="full-menu-desktop">Full Menu</button>
+        </div>
+      </section>
+
+      <section class="testimonials__desktop">
+        <div class="testimonials__content">
+          <div class="testimonials__text">
+            <h2>What our customers say about us</h2>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum.
+            </p>
+          </div>
+
+          <div class="testimonials__card">
+            <span class="avatar-icon">
+              <img src="images/Icon Color.png" alt="" class="icon" />
+            </span>
+
+            <div class="card-avatar">
+              <img src="/images/Avatar.png" alt="" class="avatar" />
+
+              <div class="avatar-name">
+                <h4 class="primary-name">John</h4>
+                <h4 class="sub-name">Samson</h4>
+
+                <p class="address-footer">Enugu, Nigeria</p>
+              </div>
+            </div>
+
+            <div class="avatar-text">
+              <p>
+                White dwarf a still more glorious dawn awaits tingling of the
+                spine emerged into consciousness Vangelis shores of the cosmic
+                ocean. Tendrils of gossamer clouds kindling the energy hidden in
+                matter concept of the number one permanence.
+              </p>
+            </div>
+          </div>
+
+          <div class="progress-bar bar-desktop">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog__container-desktop">
+        <article class="blog__contents">
+          <div class="blog__texts">
+            <h2>Blog Our Latest News</h2>
+            <p>
+              Have you ever browsed food blogs like mine and wondered <br />
+              how to start a food blog of your very own?
+            </p>
+          </div>
+
+          <div class="blog__container-cards">
+            <div class="blog-cards">
+              <img src="/images/Rectangle 69.png" alt="" class="card-img" />
+
+              <div class="blog-text-content">
+                <span>
+                  <p class="design-desktop">Design</p>
+                  <p class="date">01 October 2019</p>
+                </span>
+
+                <h4>Better Than Takeout Kung Pao Chicken</h4>
+                <p>
+                  This spicy, tangy, and sweet better than takeout no peanut
+                  kung pao chicken stir fry recipe
+                </p>
+
+                <a href="#" class="read-more-desktop">READ MORE</a>
+              </div>
+            </div>
+
+            <div class="blog-cards">
+              <img src="/images/Rectangle 70.png" alt="" class="card-img" />
+
+              <div class="blog-text-content">
+                <span>
+                  <p class="design-desktop">Design</p>
+                  <p class="date">01 October 2019</p>
+                </span>
+
+                <h4>The Best Sesame Soy Broccoli Salad</h4>
+                <p>
+                  Hello broccoli salad! Broccoli salad with a sweet and tangy
+                  dressing is my new go to for summer parties.
+                </p>
+
+                <a href="#" class="read-more-desktop">READ MORE</a>
+              </div>
+            </div>
+
+            <div class="blog-cards">
+              <img src="/images/Rectangle 71.png" alt="" class="card-img" />
+
+              <div class="blog-text-content">
+                <span>
+                  <p class="design-desktop">Design</p>
+                  <p class="date">01 October 2019</p>
+                </span>
+
+                <h4>Better Than Takeout Kung Pao Chicken</h4>
+                <p>
+                  This super easy version of dan dan noodles is fast, flavorful,
+                  and vegetarian to boot. It’s definitely
+                </p>
+
+                <a href="#" class="read-more-desktop">READ MORE</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer__desktop">
       <div class="footer__container">
-        <h2 class="footer-logo">
-          <img src="/images/Group.png" alt="" class="footer-img" />
-          <b>Meals</b>
-        </h2>
+        <div class="footer-card">
+          <h2 class="footer-logo">
+            <img src="/images/Group.png" alt="" class="footer-img" />
+            <b>Meals</b>
+          </h2>
 
-        <div class="footer__cards">
           <div class="footer-flex">
             <h4><b>Company</b></h4>
+            <br />
             <p>Blog</p>
             <br />
             <p>About us</p>
@@ -358,6 +595,7 @@
 
           <div class="footer-flex">
             <h4><b>Services</b></h4>
+            <br />
             <p>FAQS</p>
             <br />
             <p>Our Menu</p>
@@ -367,7 +605,7 @@
         <div class="footer__end">
           <p>© 2022 Meals. All rights reserved.</p>
 
-          <span class="social-icons">
+          <span class="social-icons-desktop">
             <img src="/images/Shape.png" alt="" class="s-icons" />
 
             <img
