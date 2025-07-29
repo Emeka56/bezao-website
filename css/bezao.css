@@ -18,7 +18,7 @@ body {
   }
 
   header {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem auto;
   }
 
   main,
@@ -36,7 +36,7 @@ body {
 
   .nav__top {
     display: flex;
-    gap: 200px;
+    gap: 300px;
   }
 
   /* Hero section styling */
@@ -44,7 +44,7 @@ body {
   .hero__mobile {
     background-color: #da3743;
     position: relative;
-    top: 0.3rem;
+    top: 1rem;
 
     max-width: 430px;
   }
@@ -87,8 +87,8 @@ body {
 
   .mag-icon {
     position: relative;
-    right: 0px;
-    top: 0px;
+    right: 325px;
+    top: 10px;
     width: 25px;
     color: #b5b5bd;
   }
@@ -120,8 +120,8 @@ body {
 
   .menu__overview {
     display: flex;
-    gap: 0.5rem;
-    font-size: 0.8rem;
+    gap: 2rem;
+    font-size: 1rem;
     margin-top: 1rem;
     border: 1px solid #ebebeb;
     padding: 4px;
@@ -170,7 +170,7 @@ body {
   .cart-icon-mobile {
     position: relative;
     top: 0.5rem;
-    left: 3.3rem;
+    left: 4.5rem;
   }
 
   .full-menu {
@@ -241,7 +241,7 @@ body {
   .card-avatar img {
     position: absolute;
     height: 48px;
-    right: 320px;
+    right: 370px;
     top: 0px;
   }
 
@@ -364,7 +364,7 @@ body {
   }
 
   .footer__mobile h2 {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     color: #1a1a1a;
     line-height: 160%;
@@ -379,7 +379,7 @@ body {
 
   .footer-company h3,
   .footer-services h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .footer-company p,
@@ -421,7 +421,7 @@ body {
 
   .nav__desktop ul {
     display: flex;
-    gap: 70px;
+    gap: 60px;
   }
 
   li {
@@ -438,15 +438,15 @@ body {
   }
 
   h2 {
-    font-size: 1.7rem;
-  }
-
-  h3 {
     font-size: 1.5rem;
   }
 
-  p {
+  h3 {
     font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
   }
 
   .active {
