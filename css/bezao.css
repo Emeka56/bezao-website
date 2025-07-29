@@ -373,7 +373,7 @@ body {
   .footer__flex-mobile {
     margin-top: 1rem;
     display: flex;
-    gap: 4rem;
+    gap: 7rem;
     line-height: 160%;
   }
 
@@ -725,7 +725,7 @@ body {
 
   .icon {
     position: relative;
-    left: 670px;
+    left: 600px;
   }
 
   .avatar-name {
