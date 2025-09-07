@@ -825,7 +825,7 @@ body {
 
   .nav__desktop ul {
     display: flex;
-    gap: 60px;
+    gap: 100px;
   }
 
   li {
@@ -863,8 +863,6 @@ body {
     color: #da3743;
     border: none;
     transition: all 0.5s ease-in;
-    transform: translateX(8px);
-    font-weight: bold;
     cursor: pointer;
   }
 
@@ -873,8 +871,6 @@ body {
     color: #da3743;
     border-bottom: 2px solid #da3743;
     transition: all 0.5s ease-in;
-    transform: translateX(8px);
-    font-weight: bold;
     cursor: pointer;
   }
 
@@ -883,7 +879,6 @@ body {
     color: #da3743;
     border-bottom: 2px solid #da3743;
     transition: all 0.5s ease-out;
-    font-weight: bold;
     cursor: pointer;
   }
 
@@ -892,8 +887,7 @@ body {
     color: #da3743;
     border-bottom: 2px solid #da3743;
     transition: all 1s ease-in;
-    width: 30px;
-    transform: translateX(-10px);
+    transform: translateX(-8px);
     cursor: pointer;
   }
 
@@ -903,7 +897,6 @@ body {
     border-bottom: 2px solid #da3743;
     transition: all 1s ease-in-out;
     transform: translateX(-10px);
-    width: 20px;
     cursor: pointer;
   }
 
@@ -913,7 +906,6 @@ body {
     border-bottom: 2px solid #da3743;
     transition: all 0.5s ease-in;
     transform: translateX(8px);
-    font-weight: bold;
     cursor: pointer;
   }
 
@@ -931,11 +923,11 @@ body {
     color: #da3743;
     border-bottom: 2px solid #da3743;
     transition: all 0.5s ease-in;
-    transform: translateX(8px);
+    transform: translateX(3px);
     font-weight: bold;
   }
 
-  /* Hero secttion styling */
+  /* Hero section styling */
 
   .hero {
     margin-top: 4rem;
