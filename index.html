@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BEZAO</title>
-    <link rel="stylesheet" href="/css/bezao.css" />
+    <link rel="stylesheet" href="css/bezao.css" />
   </head>
   <body>
     <header class="header__top mobile">
@@ -281,15 +281,15 @@
     </footer>
 
     <!-- Desktop view -->
-
+<section class="bezao__desktop">
     <header class="header__desktop">
       <nav class="nav__desktop">
-        <ul class="ul-left">
+        <div class="ul-left">
           <h2>
             <img src="/images/Group.png" alt="" class="top-logo" />
             <b>Meals</b>
           </h2>
-        </ul>
+        </div>
 
         <ul class="center">
           <li><a href="#" class="home active">Home</a></li>
@@ -300,13 +300,16 @@
         <ul class="right">
           <li><img src="images/Magnifier.png" alt="" class="mag" /></li>
           <li><img src="images/Frame 7646.png" alt="" class="cart-gif" /></li>
-          <li class="sign-in">Sign In</li>
-          <li class="create-acct btn">Create Account</li>
+        </ul>
+          
+          <ul class="far-right">
+          <button class="sign-in btn">Sign In</button>
+          <button class="create-acct btn">Create Account</button>
         </ul>
       </nav>
     </header>
 
-    <main class="container__desktop">
+    <section class="container__desktop">
       <section class="hero">
         <div class="hero__text">
           <h1>
@@ -377,7 +380,7 @@
               </p>
               <br />
 
-              <span class="current-price">N 1000 </span>
+              <span class="current-price">N 1,000 </span>
             </div>
 
             <div class="menu__items">
@@ -570,7 +573,7 @@
           </div>
         </article>
       </section>
-    </main>
+    </section>
 
     <footer class="footer__desktop">
       <div class="footer__container">
@@ -615,5 +618,6 @@
         </div>
       </div>
     </footer>
+</section>
   </body>
 </html>
